@@ -33,6 +33,29 @@ a {
     color: #0969da;
     text-decoration: none;
     font-weight: bold;
+    /* Estilos para el Menú de Navegación Semántico */
+nav {
+    background-color: #1e293b;
+    padding: 12px 20px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    display: flex;
+    gap: 10px;
+}
+
+nav a {
+    color: #38bdf8;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 14px;
+    border-radius: 6px;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+nav a:hover {
+    background-color: #334155;
+    color: #ffffff;
+}
 }
 
 a:hover {
